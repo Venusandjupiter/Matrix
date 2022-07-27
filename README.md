@@ -6,8 +6,8 @@ The most fascinating part is that we allow to input the matrix or access the ele
   
 auto A = new Matrix<int,3,4>;  
 *A<<1,0,0,  
-    0,1,0,  
-    0,0,1;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0,1,0,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0,0,1;  
 std::cout<<*A<<std::endl； 
 //print the Matrix  
 std::cout<<*A(2,2)<<std::endl;  
