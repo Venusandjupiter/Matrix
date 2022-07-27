@@ -4,7 +4,7 @@ We can do some basic matrix operations like (Matrix,number )product, add, substr
 The most fascinating part is that we allow to input the matrix or access the element of Matrix like the style of Eigen:  
 //CODE BLOCK  
   
-auto A = new Matrix<int,3,4>;  
+auto A = new Matrix<int,3,3>;  
 *A<<1,0,0,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0,1,0,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0,0,1;  
